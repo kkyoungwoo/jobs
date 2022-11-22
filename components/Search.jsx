@@ -101,7 +101,7 @@ export default function Search() {
         <input
           type="text"
           value={searchTerm}
-          placeholder="Type to search blog.."
+          placeholder="Search for jobs"
           onChange={(e) => {
             setSearchTerm(e.target.value);
           }}
