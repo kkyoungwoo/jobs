@@ -146,13 +146,19 @@ export default function Search() {
             <></>
           ) : (
             <div className="search-results row g-4 mt-2">
-              <p className="h3 mt-3 mb-0">No results found!</p>
+              <p className="h5 mt-3 mb-0" style={{display:"flex", alignItems:"center"}}>문의는 
+                <button style={{margin:"0 20px"}}>
+                  <a href="https://visachanger.com/form" target="_blank"
+                  style={{color:"red",margin: "0 10px"}}>홈페이지</a>
+                </button>
+                에서 가능합니다
+              </p>
             </div>
           )}
         </div>
 
         <div className="mt-4 pt-3 card-meta">
-          <p className="h4 mb-3">키워드를 입력하세요</p>
+          <p className="h4 mb-3">준비중인 기능입니다. (Coming soon)</p>
           {/*
           <ul className="card-meta-tag list-inline">
             {uniqueTags.map((item, i) => (
