@@ -2,15 +2,15 @@
   "metaData": {
     "title" : "wannavi Jobs",
     "description" : "wannabe, wannavisa",
-    "author" : "PlatolTheme",
-    "keyword" : "qurno, minimal, react, nextjs, blog, template",
+    "author" : "wannabe",
+    "keyword" : "wannabe Jobs",
     "ogImage" : "/images/ogimage.png"
   },
-  "baseURL" : "https://qurno-nextjs.vercel.app/",
+  "baseURL" : "https://jobs-sigma.vercel.app/",
   "logo" : "/images/logo.png",
   "logo_light" : "/images/logo-light.png",
-  "logoText" : "Qurno",
+  "logoText" : "wannavi Jobs",
   "favicon" : "/images/favicon.png",
   "postPerPage" : 6,
-  "copyright" : "© 2022 Qurno. All rights reserved."
+  "copyright" : "© 2022 wannavi. All rights reserved."
 }

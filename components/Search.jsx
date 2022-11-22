@@ -152,7 +152,8 @@ export default function Search() {
         </div>
 
         <div className="mt-4 pt-3 card-meta">
-          <p className="h4 mb-3">See posts by tags</p>
+          <p className="h4 mb-3">키워드를 입력하세요</p>
+          {/*
           <ul className="card-meta-tag list-inline">
             {uniqueTags.map((item, i) => (
               <li
@@ -166,10 +167,11 @@ export default function Search() {
               </li>
             ))}
           </ul>
+          */}
         </div>
-
+        {/*
         <div className="mt-4 card-meta">
-          <p className="h4 mb-3">See posts by categories</p>
+          <p className="h4 mb-3">업종 선택</p>
           <ul className="card-meta-tag list-inline">
             {uniqueCategories.map((item, i) => (
               <li
@@ -186,6 +188,7 @@ export default function Search() {
             ))}
           </ul>
         </div>
+          */}
       </div>
     </>
   );

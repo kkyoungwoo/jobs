@@ -28,9 +28,10 @@ export default function PostPage({
   frontMatter: { title, author, date, image, description, tags },
   authors,
 }) {
-  let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}jobs/${slug}`;
+  //let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}jobs/${slug}`;
+  let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}`;
   return (
-    <Layout metaTitle={title} metaDescription={description} ogImage={image}>
+    <Layout metaTitle={title} metaDescription={description} ogImage="/images/ogimage.png">
       <section className="section-sm pb-0">
         <div className="container">
           <div className="row justify-content-center">
@@ -234,12 +235,10 @@ export default function PostPage({
                     )}
                     <div className="content">
                       <Link
-                        href={`/author/${author
-                          .replace(/ /g, "-")
-                          .toLowerCase()}`}
+                        href={`https://visachanger.com/form`}
                       >
-                        <a className="text-dark">
-                          See all posts by this author{" "}
+                        <a className="text-dark" target="_blank" style={{fontSize: "25px"}}>
+                          입사신청 (Apply){" "}
                           <i>
                             <IconArrowUpRight size={20} />
                           </i>

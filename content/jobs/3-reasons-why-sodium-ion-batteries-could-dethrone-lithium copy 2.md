@@ -4,7 +4,7 @@ description: "설명입니다(리스트에서 나오는 화면)"
 image: "/images/blog/01.jpg"
 date: "2019-01-10T16:56:47+06:00"
 author: "글쓴이(공고하단과 리스트)"
-categories: ["카테고리(E7)입니다"]
+categories: ["비자 작성"]
 tags: ["업종(태그)입니다"]
 ---
 
