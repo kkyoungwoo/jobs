@@ -8,6 +8,39 @@ body {
     font-size: 15px;
   }
 }
+@keyframes customlang {
+  0% {
+      background-color: rgba(255, 255, 255, 0.2);
+  }
+
+  50% {
+      background-color: rgba(255, 255, 255, 1);
+  }
+
+  100% {
+      background-color: rgba(255, 255, 255, 0.2);
+  }
+}
+
+#google_translate_element {
+  display: flex;
+  justify-content: center;
+    select {
+        width: 100%;
+        animation: customlang 3s backwards;
+        width: 68vw;
+        height : 50px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.8);
+        color: gray;
+    }
+    .skiptranslate {
+        .goog-te-banner {
+            display: none;
+        }
+        font-size: 0px;
+    }
+}
 p {
   line-height: 1.8;
 }

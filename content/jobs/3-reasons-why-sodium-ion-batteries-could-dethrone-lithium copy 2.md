@@ -1,23 +1,29 @@
 ---
-title: "How to hire a developer straight out of bootcamp — without getting burned"
-description: "There’s a worldwide talent shortage in software development, and nearly one-third of hiring managers have hired someone from a coding bootcamp to help fill the void. 72% say bootcamp graduates are just as good or better than other hires, but 28% feel they are not equipped to handle their jobs."
-image: "/images/blog/07.jpg"
-date: "2021-11-15T11:35:57+06:00"
-author: "Chris Impey"
-categories: ["Tech"]
-tags: ["Lifestyle", "Startups"]
+title: "공고제목 입니다"
+description: "설명입니다(리스트에서 나오는 화면)"
+image: "/images/blog/01.jpg"
+date: "2019-01-10T16:56:47+06:00"
+author: "글쓴이(공고하단과 리스트)"
+categories: ["카테고리(E7)입니다"]
+tags: ["업종(태그)입니다"]
 ---
 
-There’s a worldwide talent shortage in software development, and nearly one-third of hiring managers have hired someone from a coding bootcamp to help fill the void. 72% say bootcamp graduates are just as good or better than other hires, but 28% feel they are not equipped to handle their jobs.
+내용입니다 1
+내용입니다 2
+내용입니다 3
 
-Considering coding bootcamps graduated more than 23,000 students in 2019, there are likely thousands who entered the workforce unprepared last year.
 
-### The reason some bootcamp grads are set up to fail
-* In my experience, not all bootcamps are created equal. They vary widely in acceptance processes, curriculum, program structure, and quality of instructors. They’re designed to push candidates through courses that will have them writing some code fairly quickly.
+### 큰글씨입니다
+* 작은글씨입니다
 
 * As a result, programs are forced to strip away a lot of fundamentals — those basics that help developers understand the “why” behind the code they’re writing.
 
 * When young software developers learn by copying and pasting, it can make troubleshooting difficult when they come across something that doesn’t fit the pattern they’re used to.
+
+![The Parker Solar Probe](https://images.theconversation.com/files/429627/original/file-20211101-25-c3f9c9.jpg?ixlib=rb-1.1.0&q=30&auto=format&w=754&h=522&fit=crop&dpr=2 "The Parker Solar Probe")
+
+> You can buy attention (advertising). You can beg for attention from the media (PR). You can bug people one at a time to get attention (sales).
+<cite>Benjamin Franklin</cite>
 
 * Small businesses and startups are those most likely to hire developers without degrees, but I’ve seen too many bootcamp grads take jobs at startups only to find they haven’t learned enough to make any real impact.
 

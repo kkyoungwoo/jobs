@@ -7,6 +7,10 @@
     {
       "name": "Kakao Talk",
       "link": "/kakao"
+    },
+    {
+      "name": "Language change",
+      "link": "/Refresh"
     }
   ]
 }

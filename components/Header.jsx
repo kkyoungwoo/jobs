@@ -76,6 +76,7 @@ export default function Header() {
     <>
       <div className="header-height-fix"></div>
       <header className="header-nav">
+      <div id="google_translate_element"></div>
         <div className="container">
           <div className="row">
             <div className="col-12">
