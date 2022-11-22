@@ -8,7 +8,7 @@ export default function Document() {
           href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Work+Sans:wght@500;600&display=swap"
           rel="stylesheet"
         />
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async />
       </Head>
       <body>
         <script
@@ -17,7 +17,7 @@ export default function Document() {
               new google.translate.TranslateElement({pageLanguage: 'ko'}, 'google_translate_element');
             }`
           }}
-        />
+         async />
         <Main />
         <NextScript />
       </body>
