@@ -28,7 +28,7 @@ export default function PostPage({
   frontMatter: { title, author, date, image, description, tags },
   authors,
 }) {
-  let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}blog/${slug}`;
+  let pageUrl = `${siteConfig.baseURL.replace(/\/$|$/, "/")}jobs/${slug}`;
   return (
     <Layout metaTitle={title} metaDescription={description} ogImage={image}>
       <section className="section-sm pb-0">
@@ -260,7 +260,7 @@ export default function PostPage({
 }
 
 export async function getStaticPaths() {
-  const blogDirFiles = fs.readdirSync(path.join("content/blog"));
+  const blogDirFiles = fs.readdirSync(path.join("content/jobs"));
   const blogs = blogDirFiles.filter((f) => f.includes(".md"));
 
   const paths = blogs.map((filename) => ({
@@ -277,7 +277,7 @@ export async function getStaticPaths() {
 
 export async function getStaticProps({ params: { slug } }) {
   const fileContents = fs.readFileSync(
-    path.join("content/blog", slug + ".md"),
+    path.join("content/jobs", slug + ".md"),
     "utf8"
   );
 

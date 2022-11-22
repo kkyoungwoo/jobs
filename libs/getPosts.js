@@ -3,14 +3,14 @@ import fs from "fs";
 import matter from "gray-matter";
 import path from "path";
 
-const blogDirFiles = fs.readdirSync(path.join("content/blog"));
+const blogDirFiles = fs.readdirSync(path.join("content/jobs"));
 const blogs = blogDirFiles.filter((f) => f.includes(".md"));
 
 export function getPosts() {
   const returnDirFiles = blogs.map((filename) => {
     const slug = filename.replace(".md", "");
     const dirFileContents = fs.readFileSync(
-      path.join("content/blog", filename),
+      path.join("content/jobs", filename),
       "utf8"
     );
 

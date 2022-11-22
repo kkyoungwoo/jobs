@@ -10,13 +10,13 @@ export default (req, res) => {
     // Fetch cache data
     posts = require("../../cache/data").posts;
   } else {
-    const blogDirFiles = fs.readdirSync(path.join("content/blog"));
+    const blogDirFiles = fs.readdirSync(path.join("content/jobs"));
     const blogs = blogDirFiles.filter((f) => f.includes(".md"));
 
     posts = blogs.map((filename) => {
       const slug = filename.replace(".md", "");
       const dirFileContents = fs.readFileSync(
-        path.join("content/blog", filename),
+        path.join("content/jobs", filename),
         "utf8"
       );
 

@@ -16,24 +16,24 @@ export default function Home({ authors, posts, banner }) {
         <div className="row">
           <div className="col-12 text-center">
             <h2 className="section-title">
-              <span>Recent posts</span>
+              <span>최근 등록된 공고</span>
             </h2>
           </div>
         </div>
         <div className="row gy-5 gx-4 g-xl-5">
           {posts.map((post, i) => (
-            <div key={i} className="col-lg-6">
+            <div key={i} className="col-lg-4">
               <Post post={post} authors={authors} />
             </div>
           ))}
 
           <div className="col-12 text-center">
-            <Link href={`/blog`}>
+            <Link href={`/jobs`}>
               <a className="btn btn-primary mt-5" aria-label="View all posts">
                 <i className="me-2">
                   <IconNewSection size={16} />
                 </i>
-                View all posts
+                공고 더보기
               </a>
             </Link>
           </div>

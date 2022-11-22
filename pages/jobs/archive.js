@@ -55,7 +55,7 @@ export default function Archive({ posts, archive: { frontMatter } }) {
                           {formatDateByMonth(post.frontMatter.date)}
                         </span>
                         <span>•</span>
-                        <Link href={`/blog/${post.slug}`}>
+                        <Link href={`/jobs/${post.slug}`}>
                           <a>{post.frontMatter.title}</a>
                         </Link>
                       </div>

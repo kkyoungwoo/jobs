@@ -1,10 +1,10 @@
 {
   "metaData": {
-    "title" : "Qurno | Minimal NextJS Blog Template",
-    "description" : "Qurno - a minimal nextjs blog template",
+    "title" : "wannavi Jobs",
+    "description" : "wannabe, wannavisa",
     "author" : "PlatolTheme",
     "keyword" : "qurno, minimal, react, nextjs, blog, template",
-    "ogImage" : "https://qurno-nextjs.vercel.app/images/ogimage.jpg"
+    "ogImage" : "/images/ogimage.png"
   },
   "baseURL" : "https://qurno-nextjs.vercel.app/",
   "logo" : "/images/logo.png",

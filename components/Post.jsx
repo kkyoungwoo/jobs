@@ -17,7 +17,7 @@ export default function Post({
     <>
       <article className="card post-card h-100 border-0 bg-transparent">
         <div className="card-body">
-          <Link href={`/blog/${slug}`}>
+          <Link href={`/jobs/${slug}`}>
             <a className="d-block" title={title}>
               <div className="post-image position-relative">
                 <Image
@@ -50,7 +50,7 @@ export default function Post({
             </li>
           </ul>
 
-          <Link href={`/blog/${slug}`}>
+          <Link href={`/jobs/${slug}`}>
             <a className="d-block" title={title}>
               <h3 className="post-title mb-3">{title}</h3>
             </a>

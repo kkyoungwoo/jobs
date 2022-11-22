@@ -8,15 +8,15 @@ import { getPosts } from "@/libs/getPosts";
 import fs from "fs";
 import path from "path";
 
-export default function Blog({ authors, posts, currentPage, numberOfPages }) {
+export default function Jobs({ authors, posts, currentPage, numberOfPages }) {
   return (
     <Layout metaTitle="All Posts">
-      <PageHeaderBlock title="All posts" blogPage={true} />
+      <PageHeaderBlock title="All Jobs" blogPage={true} />
 
       <div className="container">
         <div className="row gy-5 gx-4 g-xl-5">
           {posts.map((post, i) => (
-            <div key={i} className="col-lg-6">
+            <div key={i} className="col-lg-4">
               <Post post={post} authors={authors} />
             </div>
           ))}
@@ -29,7 +29,7 @@ export default function Blog({ authors, posts, currentPage, numberOfPages }) {
 }
 
 export async function getStaticPaths() {
-  const blogDirFiles = fs.readdirSync(path.join("content/blog"));
+  const blogDirFiles = fs.readdirSync(path.join("content/jobs"));
   const numberOfPages = Math.ceil(blogDirFiles.length / postConfig.postPerPage);
 
   let paths = [];
@@ -47,7 +47,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps({ params }) {
-  const blogDirFiles = fs.readdirSync(path.join("content/blog"));
+  const blogDirFiles = fs.readdirSync(path.join("content/jobs"));
   const blogs = blogDirFiles.filter((f) => f.includes(".md"));
 
   const returnDirFiles = getPosts();

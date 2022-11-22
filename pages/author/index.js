@@ -63,7 +63,7 @@ export default function Authors({ authors, posts }) {
               ))}
 
             <div className="col-12 text-center">
-              <Link href={`/blog`}>
+              <Link href={`/jobs`}>
                 <a className="btn btn-primary mt-5" aria-label="View all posts">
                   <i className="me-2">
                     <IconNewSection size={16} />
