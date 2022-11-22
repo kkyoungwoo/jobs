@@ -60,6 +60,7 @@ export default function Contact({ contact: { frontMatter } }) {
                 action={contactForm.contactFormAction}
                 method="POST"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <div className="col-md-12">
                   <textarea

@@ -237,7 +237,7 @@ export default function PostPage({
                       <Link
                         href={`https://visachanger.com/form`}
                       >
-                        <a className="text-dark" target="_blank" rel="noopener" style={{fontSize: "25px"}}>
+                        <a className="text-dark" target="_blank" rel="noopener noreferrer" style={{fontSize: "25px"}}>
                           입사신청 (Apply){" "}
                           <i>
                             <IconArrowUpRight size={20} />
