@@ -148,7 +148,7 @@ export default function Search() {
             <div className="search-results row g-4 mt-2">
               <p className="h5 mt-3 mb-0" style={{display:"flex", alignItems:"center"}}>문의는 
                 <button style={{margin:"0 20px"}}>
-                  <a href="https://visachanger.com/form" target="_blank"
+                  <a href="https://visachanger.com/form" target="_blank" rel="noopener"
                   style={{color:"red",margin: "0 10px"}}>홈페이지</a>
                 </button>
                 에서 가능합니다
