@@ -1,0 +1,49 @@
+---
+title: "닭가공 제조업 공장"
+description: "충청북도 진천군, 현장직"
+image: "/images/jobs/W1JA8/main.png"
+date: "2022-11-23"
+author: "290만원~"
+categories: ["NO visa"]
+tags: ["W1JA8"]
+---
+
+<!--### need a visa-->
+### NO visa
+
+* 닭가공 단순업무
+* 월-토 근무
+* 일요일 휴무( 희망시 근무 가능)
+* 근무시간 : 08:00~17:00
+* 실수령 290~350만원(최대400)
+* (잔업 주 3~4회 2~3시간)
+
+* 급여 20일
+* 풀옵션 원룸 무료제공
+* 아침, 점심 잔업시 저녁제공
+* 여자 6명 
+* 나이는 40살 까지
+
+![image](/images/jobs/W1JA8/map.png)
+
+> Adress:
+<a target="_blank" rel="noopener noreferrer" href="https://map.naver.com/v5/search/%EB%8C%80%EA%B5%AC%20%EB%B6%81%EA%B5%AC%20%EA%B8%88%ED%98%B8%EB%8F%99/address/14307415.47784901,4287474.920235993,%EB%8C%80%EA%B5%AC%EA%B4%91%EC%97%AD%EC%8B%9C%20%EB%B6%81%EA%B5%AC%20%EA%B8%88%ED%98%B8%EB%8F%99,adm?c=14305615.8222110,4287457.5522424,12.85,0,0,0,dh&isCorrectAnswer=true">
+    충청북도 진천군
+</a>
+<!--
+한6
+외5
+송림 / 제조업	
+충북 진천군 이월면 송림5길 14	
+30만원	
+박종엽	
+010-3189-0818	
+-->
+<cite>아래 입사지원 버튼을 클릭하세요</cite>
+
+### a job guide
+비자가 없으면 협의 후 진행됩니다.
+
+비자가 있으면 평균 한 달 정도 기다려야 합니다.
+
+입사 지원 시 회사 코드를 입력하면 매칭 작업이 빠르게 진행됩니다.

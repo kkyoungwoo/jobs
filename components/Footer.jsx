@@ -14,6 +14,9 @@ export default function Footer() {
               <p className="mb-0 copyright-text content">
                 {siteConfig.copyright}
               </p>
+              <p className="mb-0 copyright-text content">
+                <a style={{textDecoration:"none"}}href="https://www.moel.go.kr/info/defaulter/defaulterList.do" rel="noopener noreferrer" >임금체불 사업자명단 보기</a>
+              </p>
             </div>
           </div>
         </div>

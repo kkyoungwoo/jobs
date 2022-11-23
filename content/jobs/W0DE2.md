@@ -1,13 +1,14 @@
 ---
 title: "자동차 부품 가공 현장"
-description: "경상남도 사천시"
+description: "경상남도 사천시, 현장직"
 image: "/images/jobs/W0DE2/main.png"
-date: "2022-11-23"
+date: "2022-11-01"
 author: "250만원~"
-categories: ["NO visa","뿌리기업"]
+categories: ["NO visa"]
 tags: ["W0DE2"]
 ---
 
+<!--### need a visa-->
 ### NO visa
 
 * 자동차 부품 가공 현장
