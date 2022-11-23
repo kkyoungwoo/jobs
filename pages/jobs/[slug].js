@@ -40,7 +40,7 @@ export default function PostPage({
                 <h3 className="h1 mb-4 post-title">{title}</h3>
 
                 <ul className="card-meta list-inline mb-2">
-                  <li className="list-inline-item mt-2">
+                  {/**<li className="list-inline-item mt-2">
                     <Link
                       href={`/author/${author
                         .replace(/ /g, "-")
@@ -69,14 +69,7 @@ export default function PostPage({
                       </a>
                     </Link>
                   </li>
-                  <li className="list-inline-item mt-2">—</li>
-                  <li className="list-inline-item mt-2">
-                    <i className="me-2">
-                      <IconClock size={18} />
-                    </i>
-                    <span>{readingTime(content)} min read</span>
-                  </li>
-                  <li className="list-inline-item mt-2">—</li>
+                  <li className="list-inline-item mt-2">—</li> */}
                   <li className="list-inline-item mt-2">
                     <i className="me-2">
                       <IconCalendarEvent size={18} />
@@ -167,7 +160,7 @@ export default function PostPage({
                 dangerouslySetInnerHTML={{ __html: marked.parse(content) }}
               ></div>
               <ul className="post-meta-tag list-unstyled list-inline mt-5">
-                <li className="list-inline-item">Tags: </li>
+                <li className="list-inline-item">회사코드: </li>
                 {tags.map((t, i) => (
                   <li key={i} className="list-inline-item">
                     <Link href={`/tags/${t.replace(/ /g, "-").toLowerCase()}`}>

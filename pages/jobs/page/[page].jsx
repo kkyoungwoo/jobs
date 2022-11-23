@@ -10,8 +10,8 @@ import path from "path";
 
 export default function Jobs({ authors, posts, currentPage, numberOfPages }) {
   return (
-    <Layout metaTitle="All Posts">
-      <PageHeaderBlock title="All Jobs" blogPage={true} />
+    <Layout metaTitle="Recruiting All Posts">
+      <PageHeaderBlock title="Recruiting All Jobs" blogPage={true} />
 
       <div className="container">
         <div className="row gy-5 gx-4 g-xl-5">

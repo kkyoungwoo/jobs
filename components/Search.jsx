@@ -158,7 +158,7 @@ export default function Search() {
         </div>
 
         <div className="mt-4 pt-3 card-meta">
-          <p className="h4 mb-3">준비중인 기능입니다. (Coming soon)</p>
+          <p className="h4 mb-3">관리자만 검색이 가능합니다 (Coming soon)</p>
           {/*
           <ul className="card-meta-tag list-inline">
             {uniqueTags.map((item, i) => (

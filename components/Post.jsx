@@ -41,18 +41,11 @@ export default function Post({
               </i>
               <span>{formatDate(date)}</span>
             </li>
-            <li className="list-inline-item mt-2">—</li>
-            <li className="list-inline-item mt-2">
-              <i className="me-2">
-                <IconClock size={18} />
-              </i>
-              <span>{readingTime(content)} min read</span>
-            </li>
           </ul>
 
           <Link href={`/jobs/${slug}`}>
             <a className="d-block" title={title}>
-              <h3 className="post-title mb-3">{title}</h3>
+              <h4 className="post-title mb-3">{title}</h4>
             </a>
           </Link>
           <p>{truncateString(description, 150)}</p>
