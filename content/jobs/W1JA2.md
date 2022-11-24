@@ -2,7 +2,7 @@
 title: "치킨 프렌차이즈"
 description: "제주도 조천읍, 현장직"
 image: "/images/jobs/W1JA2/main.png"
-date: "2022-11-23"
+date: "2022-11-03"
 author: "210만원~"
 categories: ["NO visa"]
 tags: ["W1JA2"]

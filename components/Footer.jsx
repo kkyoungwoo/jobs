@@ -12,10 +12,16 @@ export default function Footer() {
           <div className="row">
             <div className="col-lg-12 text-center">
               <p className="mb-0 copyright-text content">
+                <a style={{textDecoration:"none"}}href="https://www.moel.go.kr/info/defaulter/defaulterList.do" rel="noopener noreferrer" >임금체불 사업자명단 보기</a>
+              </p>
+              <p className="mb-0 copyright-text content">
                 {siteConfig.copyright}
               </p>
               <p className="mb-0 copyright-text content">
-                <a style={{textDecoration:"none"}}href="https://www.moel.go.kr/info/defaulter/defaulterList.do" rel="noopener noreferrer" >임금체불 사업자명단 보기</a>
+                <a style={{textDecoration:"none"}}href="https://visachanger.com/" rel="noopener noreferrer" >비자문의</a>
+              </p>
+              <p className="mb-0 copyright-text content">
+                <a style={{textDecoration:"none"}}href="https://thekvisa.kr/companyform" rel="noopener noreferrer" >외국인 채용문의</a>
               </p>
             </div>
           </div>

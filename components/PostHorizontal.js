@@ -39,12 +39,12 @@ export default function PostHorizontal({
             <div className="ps-0 ps-lg-4 ms-0 ms-lg-3 mt-0 mt-lg-4">
               <div className="card-body">
                 <ul className="card-meta list-inline mb-3">
-                  <li className="list-inline-item mt-2">
+                  {/**<li className="list-inline-item mt-2">
                     <i className="me-2">
                       <IconCalendarEvent size={18} />
                     </i>
                     <span>{formatDate(date)}</span>
-                  </li>
+                  </li> */}
                   <li className="list-inline-item mt-2">—</li>
                   <li className="list-inline-item mt-2">
                     <i className="me-2">

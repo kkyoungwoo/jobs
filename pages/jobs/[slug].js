@@ -39,8 +39,8 @@ export default function PostPage({
               <div className="mb-5">
                 <h3 className="h1 mb-4 post-title">{title}</h3>
 
-                <ul className="card-meta list-inline mb-2">
-                  {/**<li className="list-inline-item mt-2">
+                {/**<ul className="card-meta list-inline mb-2">
+                  <li className="list-inline-item mt-2">
                     <Link
                       href={`/author/${author
                         .replace(/ /g, "-")
@@ -69,14 +69,14 @@ export default function PostPage({
                       </a>
                     </Link>
                   </li>
-                  <li className="list-inline-item mt-2">—</li> */}
+                  <li className="list-inline-item mt-2">—</li>
                   <li className="list-inline-item mt-2">
                     <i className="me-2">
                       <IconCalendarEvent size={18} />
                     </i>
                     <span>{formatDate(date)}</span>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
             <div className="col-lg-12">

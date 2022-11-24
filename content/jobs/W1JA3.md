@@ -2,7 +2,7 @@
 title: "폐차장"
 description: "경상북도 구미 북삼, 현장직"
 image: "/images/jobs/W1JA3/main.png"
-date: "2022-11-23"
+date: "2022-12-04"
 author: "200만원~"
 categories: ["NO visa"]
 tags: ["W1JA3"]
