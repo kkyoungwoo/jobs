@@ -45,7 +45,7 @@ export default function Post({
 
           <Link href={`/jobs/${slug}`}>
             <a className="d-block" title={title}>
-              <h4 className="post-title mb-3">{title}</h4>
+              <h4> {title}</h4>
             </a>
           </Link>
           <p>{truncateString(description, 150)}</p>
