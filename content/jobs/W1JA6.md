@@ -2,7 +2,7 @@
 title: "참외 농장"
 description: "경상북도 성주 선남면, 현장직"
 image: "/images/jobs/W1JA6/main.png"
-date: "2022-11-23"
+date: "2022-10-30"
 author: "2명350만원~"
 categories: ["NO visa"]
 tags: ["W1JA6"]

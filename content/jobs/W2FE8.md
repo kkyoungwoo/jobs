@@ -2,7 +2,7 @@
 title: "모텔 프론트"
 description: "경기도 남양주시, 사무직"
 image: "/images/jobs/W2FE8/main.png"
-date: "2022-11-01"
+date: "2022-10-31"
 author: "180만원~"
 categories: ["NO visa"]
 tags: ["W2FE8"]

@@ -2,7 +2,7 @@
 title: "물건 상하차"
 description: "경기도 평택시, 현장직"
 image: "/images/jobs/J2FE3/main.png"
-date: "2022-11-23"
+date: "2022-10-30"
 author: "240만원~"
 categories: ["need a visa"]
 tags: ["J2FE3"]

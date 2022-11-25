@@ -2,7 +2,7 @@
 title: "이사짐 센터"
 description: "제주도 서귀포시, 현장직"
 image: "/images/jobs/W2FE5/main.png"
-date: "2022-11-01"
+date: "2022-10-30"
 author: "270만원~"
 categories: ["need a visa"]
 tags: ["W2FE5"]

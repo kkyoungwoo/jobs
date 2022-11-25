@@ -2,7 +2,7 @@
 title: "축산물 가공"
 description: "충청남도 보령, 현장직"
 image: "/images/jobs/W2FE7/main.png"
-date: "2022-11-01"
+date: "2022-10-30"
 author: "250만원~"
 categories: ["NO visa"]
 tags: ["W2FE7"]
