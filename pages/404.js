@@ -13,8 +13,8 @@ export default function PageNotFound() {
                 <p>Please refresh to change the language</p>
                 <p>And Come into the chat room</p>
                 <p>I created a group chat room that shares an e7 company.</p>
-                <p>▼ E7 회사를 공유하는 단체 채팅방을 만들었습니다 ▼</p>
-                <Link href="https://open.kakao.com/o/gbCgvaPe">
+                <p>▼ E7 회사를 공유하는 카카오 채널을 만들었습니다 ▼</p>
+                <Link href="http://pf.kakao.com/_xhhdIxj">
                   <a className="btn btn-primary">Go to KakaoTalk</a>
                 </Link>
               </div>
