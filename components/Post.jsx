@@ -20,6 +20,8 @@ export default function Post({
           <Link href={`/jobs/${slug}`}>
             <a className="d-block" title={title}>
               <div className="post-image position-relative">
+                {/**썸네일 이미지 나오는 부분 메인
+                 *
                 <Image
                   className="rounded"
                   src={image}
@@ -30,6 +32,8 @@ export default function Post({
                   placeholder="blur"
                   blurDataURL={image}
                 />
+
+                 */}
               </div>
             </a>
           </Link>
